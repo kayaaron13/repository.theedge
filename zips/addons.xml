@@ -22,6 +22,21 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.streamzonelive" name="StreamZone Live" version="0.0.2" provider-name="a2thekay">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="repository.theedge" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">WELCOME TO THE ZONE OF STREAM.</summary>
+    <description lang="en">A place where people can come and unplug from the greedy cable companies and plug into the Zone of Stream.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.streamzoneplaylist" name="Playlist" version="0.0.1" provider-name="A2TheKay">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -44,7 +59,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.theedge" name="The Edge Repo" version="0.0.2" provider-name="A2TheKay">
+<addon id="repository.theedge" name="The Edge Repo" version="0.0.4" provider-name="A2TheKay">
 	<extension point="xbmc.addon.repository" name="The Edge Repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.streamzonelive" name="StreamZone Live" version="0.0.2" provider-name="a2thekay">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="repository.theedge" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">WELCOME TO THE ZONE OF STREAM.</summary>
+    <description lang="en">A place where people can come and unplug from the greedy cable companies and plug into the Zone of Stream.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
